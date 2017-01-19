@@ -19,4 +19,8 @@ class TestMMFunctions < Minitest::Test
 		assert_equal('mined', mined_minds_function(3))
 	end
 
+	def test_pass_9_to_mined_minds_function_returns_mined
+		assert_equal('mined', mined_minds_function(9))
+	end
+
 end
